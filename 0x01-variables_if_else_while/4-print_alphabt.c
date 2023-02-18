@@ -9,9 +9,9 @@ int main(void)
 
 	ch = 'a';
 	while
-		(ch <= 'z'){
-			if(( ch != 'q' && c != 'e') && c <= 'z')
-				putcahr(c);
+		(ch <= 'z') {
+			if ((ch != 'q' && ch != 'e') && ch <= 'z')
+				putchar(ch);
 			c++;
 		}
 	putchar('\n');
