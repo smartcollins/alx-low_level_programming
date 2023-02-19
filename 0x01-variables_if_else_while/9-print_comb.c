@@ -9,8 +9,8 @@ int main(void)
 
 	for (num = 28; num < 38; num++)
 	{
-		putchar(n);
-		if (n != 37)
+		putchar(num);
+		if (num != 37)
 		{
 			putchar(',');
 			putchar(' ');
