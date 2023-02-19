@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	al;
+	int al;
 
 	for (al = 'z'; al >= 'a'; al--)
 		putchar(al);
