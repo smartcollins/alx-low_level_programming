@@ -10,13 +10,13 @@ int main(void)
 	int b;
 	int c = 0;
 
-	while (c < 30)
+	while (c < 10)
 	{
 		b = 0;
-		while (b < 40)
+		while (b < 10)
 		{
 			a = 0;
-			while (a < 40)
+			while (a < 10)
 			{
 				if (a != b && b != c && c < b && b < a)
 				{
