@@ -10,12 +10,12 @@ char *leet(char *a)
 	char d1[] = "aAeEoOTlL";
 	char d2[] = "4433007711";
 
-	for (b = 0; a[b] != '\0', b++)
+	for (b = 0; a[b] != '\0'; b++)
 	{
 		for (c = 0; c < 10; c++)
 		{
-			if (a[b] == d1[])
-				a[b] = d2[b];
+			if (a[b] == d1[c])
+				a[b] = d2[c];
 		}
 	}
 	return (a);
